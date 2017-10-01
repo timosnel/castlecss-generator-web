@@ -1,2 +1,21 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<form method="post">
+  <label for="projectname">Project name</label>
+  <input type="text" id="projectname" name="projectname" />
+
+  <h2>Features</h2>
+
+  <input type="checkbox" name="castlecss-buttons" />
+  <label for="castlecss-buttons">castlecss-buttons</label>
+
+  <input type="checkbox" name="castlecss-notifications" />
+  <label for="castlecss-notifications">castlecss-notifications</label>
+
+  <label for="buildsystem">Build system</label>
+  <select name="buildsystem">
+    <option value="none">None</option>
+    <option value="grunt">Grunt</option>
+    <option value="gulp">Gulp</option>
+  </select>
+
+  <input type="submit" value="Generate" />
+</form>

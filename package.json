@@ -10,9 +10,13 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "generator-castlecss": "0.0.5",
     "hbs": "~4.0.1",
     "morgan": "~1.8.1",
     "node-sass-middleware": "0.9.8",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "tmp": "0.0.33",
+    "yeoman-environment": "^2.0.3",
+    "zip-folder": "^1.0.0"
   }
 }
